@@ -588,8 +588,8 @@ switch ($display) {
                 && is_dir($amp_conf['FOPWEBROOT'])
             ) {
                 // lg($amp_conf);
-                if($amp_conf['AMPWEBROOT'] == '/var/www/html/admin' ||
-                    $amp_conf['AMPWEBROOT'] == '/var/www/html') {
+                if($amp_conf['AMPWEBROOT'] == '/var/www/html/api/admin' ||
+                    $amp_conf['AMPWEBROOT'] == '/var/www/html/api') {
                     $amp_conf['AMPWEBROOT'] = dirname(__DIR__);
                 }
 
