@@ -19,8 +19,8 @@ define('REMOTE_REST_API_FLAG' , 'remote_request_rest_api_service');
 define('FREEPBX_ROOT_FOLDER_NAME', $FREEPBX_ADMIN_ROOT_FOLDER);
 define('FREEPBX_WEB_ROOT_DIR'    , dirname(__DIR__));
 
-$amp_conf['AMPDBUSER']	= 'asteriskuser';
-$amp_conf['AMPDBPASS']  = '123456Aa';
+$amp_conf['AMPDBUSER']	= 'root';
+$amp_conf['AMPDBPASS']  = 'rbc4voip';
 $amp_conf['AMPDBHOST']	= 'localhost';
 $amp_conf['AMPDBNAME']	= 'asterisk';
 $amp_conf['AMPDBENGINE'] = 'mysql';
