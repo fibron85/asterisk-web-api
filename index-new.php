@@ -48,8 +48,8 @@ require 'bootstrap.php';
         var siteUrl = '<?php echo SITE_URL;?>';
         var routeName = '<?php echo $routeName;?>';
 
-        var getApiUrl = 'https://192.168.3.15/admin/config.php';
-        var postApiUrl = 'https://192.168.3.15/admin/config.php';
+        var getApiUrl = 'https://http://134.122.104.187/api/admin/config.php';
+        var postApiUrl = 'https://134.122.104.187/api/admin/config.php';
         var localApiUrl = 'api/';
 
     </script>
